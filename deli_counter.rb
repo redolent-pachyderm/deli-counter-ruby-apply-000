@@ -14,7 +14,7 @@ else        #otherwise
     take_a_number(katz_deli)       #current patrons and new patron 
     
         if katz_deli.length >= 3 
-          puts line[0] << "Matz"
+          puts line[name] << "Matz"
         else 
           
         
