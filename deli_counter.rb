@@ -13,12 +13,16 @@ else        #otherwise
     
     take_a_number(katz_deli)       #current patrons and new patron 
     
-        katz_deli.line[0] << "Matz"
+        if katz_deli.length >= 3 
+          puts line[0] << "Matz"
+        else 
+          
         
         
           
             #line[0] << "Matz"
             #line[0] = line.shift
+          end 
       end
   end
 end 
