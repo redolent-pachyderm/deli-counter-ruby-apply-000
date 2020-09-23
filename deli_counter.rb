@@ -10,8 +10,10 @@ else        #otherwise
         katz_deli.each do |name, position|       #deli queue matches patron and placement
           puts "Welcome, #{name}, you are number #{position} in line."        #output displayed on screen for patrons viewing
           
+          
+          
     
-    take_a_number(katz_deli)       #current patrons and new patron 
+  def take_a_number(katz_deli)       #current patrons and new patron 
     
         if katz_deli.length >= 3 
           puts line[name] << "Matz"
